@@ -1,0 +1,14 @@
+#movies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-top: 10px;
+}
+img{
+    border-radius: 10px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
